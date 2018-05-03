@@ -221,7 +221,7 @@ console.log(pet.age,pet.name);//5 "lulu"
 > 1、特点：
 - 类似数组，但没有重复的元素（唯一的）；
 - 开发中用于去除重复数据
-- 开发中用于去除重复数据
+- key 和 value都是相等的
 
 > 2、开发中经常用于一些去重的操作；
 
@@ -497,7 +497,7 @@ console.log(person); //Person {name: "张三", age: 19}
     console.log(Array.isArray(Array.from(allLis))); //true
     
     
-//Array.of 零零散散的数值统一成字符
+//Array.of 零零散散的数值统一成数组
     
     console.log(Array.of(1,2,3,4)); //[1.2.3.4]
     console.log(Array.of('abc','def','ghi')); //["abc", "def", "ghi"]
